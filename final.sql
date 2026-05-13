@@ -203,9 +203,7 @@ BEGIN
         SIGNAL SQLSTATE '45000'
         SET MESSAGE_TEXT ='Cannot delete client with active rentals';
     END IF;
-
 END $$
-
 DELIMITER ;
 
 -- Phần 6:
